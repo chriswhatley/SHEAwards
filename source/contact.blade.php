@@ -44,7 +44,7 @@
 				<div class="contact-b h-48 bg-cover overflow-hidden border-b-4 border-yellow-500 rounded-t-md"></div>
 				<div class="flex flex-col px-4 md:px-10 py-6 bg-gray-300 rounded-b-md">
 					<div class="flex-1 text-center">
-						<h2 class="text-lg font-bold leading-snug uppercase">Sales Manager - Ticket Sales</h2>
+						<h2 class="text-lg font-bold leading-snug uppercase">Sales Manager</h2>
 						<div class="mt-4 text-md">
 							<div class="font-semibold">Leanne Velez</div>
 
@@ -107,7 +107,7 @@
 			<div class="w-full flex flex-col py-4 px-4 md:w-1/2">
 				<div class="flex flex-col flex-1 px-4 py-4 bg-white rounded-md bg-gray-300">
 					<div class="md:mt-6 text-center font-bold text-lg tracking-tight font-semibold uppercase xl:mt-8 xl:text-xl">
-						The 2020 SHE Awards are organised by
+						The 2021 SHE Awards are organised by
 					</div>
 					<div class="mx-auto w-full sm:w-3/5 md:w-4/5">
 						

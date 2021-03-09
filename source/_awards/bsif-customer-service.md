@@ -1,6 +1,5 @@
 ---
 title: Bsif customer service award
-criteria: bsif-safety-awards-2020-brochure.pdf
 sponsor: bsif
 organiser: true
 icon: thumbs-up

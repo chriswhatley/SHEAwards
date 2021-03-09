@@ -10,6 +10,14 @@
 	@apply inline-block text-center bg-yellow-500 px-4 py-3 rounded-lg uppercase font-bold text-white tracking-tighter	
 }
 
+.highlight-border-top {
+    @apply border-t-8 border-yellow-500
+}
+
+.highlight-border-bottom {
+    @apply border-b-8 border-yellow-500
+}
+
 .hero, .highlights-video {	
 	background-color: rgba(0, 0, 0, 0.50);
   	background-blend-mode: soft-light;
@@ -218,6 +226,14 @@ footer .watermark {
 
 .no-webp .collage {
 	background-image: url('../images/layout/footer-strip-compressed.jpg');
+}
+
+.webp .faq-a {
+    background-image: url('../images/layout/faq-compressed.webp');
+}
+
+.no-webp .faq-a {
+    background-image: url('../images/layout/faq-compressed.jpg');
 }
 
 /* used with the FAQ accordian */

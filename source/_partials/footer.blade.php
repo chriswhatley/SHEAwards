@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="relative w-full bg-gray-900">
+<footer class="relative w-full bg-gray-900 highlight-border-top">
 	
     <div class="container mx-auto flex flex-wrap pt-4 pb-10 px-5 md:px-12 lg:px-8 text-white bg-no-repeat bg-right watermark">
         <div class="order-1 sm:order-1 md:order-1 lg:order-2 xl:order-1 w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 pt-8">
@@ -29,9 +29,7 @@
                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-yellow-500"><path d="M8 20H3V10H0L10 0l10 10h-3v10h-5v-6H8v6z"/></svg>
                         </div>
                         <div class="w-full text-white tracking-tight">
-                            The Vox Conference Centre,<br />
-                            Resorts World, Birmingham <br />
-                            B40 1PU
+                            <a href="{{ $page->awardsURL }}" class="footer-link" target="_blank">Online</a>
                         </div>
                     </div>  
                 </div>                                                        
@@ -89,7 +87,7 @@
 
                 <div class="lg:w-1/3 xl:w-full">
                     <div class="mt-8">
-                        <h3 class="text-md font-bold uppercase">Sales Manager - Ticket Sales</h3>
+                        <h3 class="text-md font-bold uppercase">Sales Manager</h3>
                         <h4 class='mt-2'>Leanne Velez</h4>
                     </div>                                
                     
@@ -137,7 +135,7 @@
                         <svg class="mr-3 w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">                               
                             <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"/>
                         </svg>                        
-                        <a href="/shortlist" class="footer-link">Awards Shortlist</a>
+                        <a href="{{ $page->nominationURL }}" class="footer-link">Make A Nomination</a>
                     </div>                 
                 </li>
                 <li>
@@ -145,7 +143,7 @@
                         <svg class="mr-3 w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">                               
                             <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"/>
                         </svg>                        
-                        <a href="/tickets" class="footer-link">Tickets</a>
+                        <a href="{{ $page->awardsURL }}" class="footer-link">Register to Attend</a>
                     </div>                 
                 </li>
                 <li>

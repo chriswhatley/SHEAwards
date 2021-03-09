@@ -1,7 +1,7 @@
 <header class="fixed w-full px-3 py-4 lg:px-12 lg:py-6 bg-black text-white flex justify-between z-20">            
         
     <a href="{{ $page->baseUrl }}">
-        <img src="{{ $page->baseUrl }}/assets/images/layout/she-awards-apr21-logo.svg" alt="The SHE Awards 2020" class="h-16 lg:h-24 w-auto">
+        <img src="{{ $page->baseUrl }}/assets/images/layout/she-awards-2021-logo.svg" alt="The SHE Awards 2021" class="h-16 lg:h-24 w-auto">
     </a>                
         
     <nav class="flex">
@@ -51,7 +51,7 @@
 			
 					<div class="relative my-6">
 						<div class="w-4/5 pl-3 md:pl-6">
-							<img src="{{ $page->baseUrl }}/assets/images/layout/she-awards-apr21-logo.svg" alt="The SHE Awards 2020" class="w-18" @click="open = !open">		                    			
+							<img src="{{ $page->baseUrl }}/assets/images/layout/she-awards-2021-logo.svg" alt="The SHE Awards 2021" class="w-18" @click="open = !open">		                    			
 						</div>
 						<div class="absolute top-0 right-0 md:hidden w-1/5 sm:pr-4 flex justify-end pt-2 pr-2">
 							<button @click="open = !open" class="relative top-0 right-0 z-20 text-yellow-500 focus:outline-none focus:border-blue-500 focus:shadow-outline-none">                                       
@@ -80,11 +80,11 @@
                         	</a>
                         </li>                                                            
                         <li>
-                        	<a href="{{ $page->baseUrl }}/shortlist" class="nav-item">
+                        	<a href="{{ $page->nominationURL }}" class="nav-item">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
-                                    <path d="M10 12a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-3a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm4 2.75V20l-4-4-4 4v-8.25a6.97 6.97 0 0 0 8 0z"/>
+                                    <path d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z"/>
                                 </svg>
-                        		The Shortlists
+                        		Nominations
                         	</a>
                         </li>                            
                         <li>
@@ -128,11 +128,11 @@
                         	</a>
                         </li>                            
                         <li>
-                        	<a href="{{ $page->baseUrl }}/tickets" class="nav-item bg-yellow-500">
+                        	<a href="{{ $page->awardsURL }}" class="nav-item bg-yellow-500">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
                                     <path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
                                 </svg>
-                        		Buy Tickets
+                        		Register To Attend
                         	</a>
                         </li>                            
                     </ul>                          

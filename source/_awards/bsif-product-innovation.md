@@ -1,6 +1,5 @@
 ---
 title: Bsif product innovation award
-criteria: bsif-safety-awards-2020-brochure.pdf
 sponsor: bsif
 organiser: true
 icon: light-bulb

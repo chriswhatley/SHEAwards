@@ -20,7 +20,15 @@ pagination:
 
         	<div class="w-full text-center">
 	    		<p>Please make sure you have properly read the categories and criteria before entering. The criteria is different for each category and you are able to enter multiple categories. You can also enter more than one product in each category provided they are different products or services.</p>
-				<p class="mt-4 text-center font-semibold">DEADLINE FOR ENTRIES: Wednesday 11 March 2020 at 11:59PM.</p>
+	    		<p class="mt-4 text-center font-semibold">
+		    		<a href="{{ $page->nominationURL }}" class="btn-primary w-3/4 max-w-xs text-md sm:text-sm md:text-md lg:text-lg">
+	        			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
+	        				<path d="M3 6c0-1.1.9-2 2-2h8l4-4h2v16h-2l-4-4H5a2 2 0 0 1-2-2H1V6h2zm8 9v5H8l-1.67-5H5v-2h8v2h-2z"/>
+	        			</svg>
+	        			Make a nomination
+	        		</a>
+	        	</p>
+				<p class="mt-4 text-center font-semibold">DEADLINE FOR ENTRIES: {{ $page->nominationDeadline }} at 11:59PM.</p>
 	    	</div>
 
 			<div class="mt-12 flex flex-wrap">

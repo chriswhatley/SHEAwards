@@ -47,7 +47,8 @@
 				</div>
 
 				<div class="mt-4 md:mt-0 w-full md:w-1/2">
-					@include('_partials.map')				
+					{{-- @include('_partials.map')		 --}}		
+					<div class="faq-a w-full h-96 bg-cover bg-top rounded-lg overflow-hidden"></div>
 				</div>
 			</div>
 			
