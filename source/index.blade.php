@@ -109,7 +109,7 @@
 	        	</div>
 
 	        	<div class="p-4 text-center">
-	        		<h3 class="block text-4xl md:text-5xl lg:text-6xl">14</h3>
+	        		<h3 class="block text-4xl md:text-5xl lg:text-6xl">13</h3>
 	        		<span class="block text-md md:text-xl">Award<br />Categories</span>
 	        	</div>
 
