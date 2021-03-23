@@ -137,7 +137,7 @@
 
 				<div class="w-full md:w-1/2 px-6 pt-6 pb-8 flex items-center">				
 					<div>
-						<p class="sm:px-6">Alistair McGowan has been hailed by  The Times as a ‘voice virtuoso.’ His  repertoire includes a gallery of  politicians, pop stars and sportsmen –like a romp through the news,  gossip columns and back  page headlines.</p>        											    		            	
+						<p class="sm:px-6">We are delighted to announce The ‘Voice of the Balls’ and Radio 2’s Chief Network Announcer Alan Dedicote as Master Of Ceremonies of this year's Awards.</p>        											    		            	
 
 		            	<div class="mt-6 text-center">
 		            		<a href="{{ $page->baseUrl }}/host" class="btn-primary w-4/5 max-w-xs">
