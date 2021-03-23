@@ -35,7 +35,7 @@
 					<p class="mt-6">The Charity was also chosen to manage a two year, £1.1M CITB funded project to train 300 construction focussed mental health first aiders for the industry.</p>
 					
 					<div class="text-center">
-						<a href="/tickets" class="btn-primary inline-flex items-center justify-center mt-6 text-md sm:text-sm md:text-md">
+						<a href="{{ $page->awardsURL }}" target="_blank" class="btn-primary inline-flex items-center justify-center mt-6 text-md sm:text-sm md:text-md">
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
 								<path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
 							</svg>

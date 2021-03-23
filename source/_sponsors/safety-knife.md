@@ -4,7 +4,7 @@ logo: safety-knife
 website: https://www.safetyknife.net/
 sponsorship: Magician Sponsor
 icon: hand-stop
-sort-order: 9
+sort-order: 8
 ---
 The Safety Knife Company was founded in 1993 and is now a fully established manufacturer of Safety/Utility Knives. We are proud to offer a comprehensive range of products to many industries across the globe.
 

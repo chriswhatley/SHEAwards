@@ -1,4 +1,4 @@
-<?php
+\<?php
 
 return [
     'production' => false,
@@ -7,9 +7,9 @@ return [
     'siteTitle' => 'SHE Awards 2021',
     'awardsDate' => '13th October 2021',
     'awardsLocation' => 'Online',
-    'awardsURL' => '#',
+    'awardsURL' => 'https://hsmlive.co.uk/hsm_live/en/page/home',
     'nominationURL' => '/nominate',
-    'nominationDeadline' => 'Friday 30th July',
+    'nominationDeadline' => 'Saturday 31st July 2021',
     'collections' => [  'awards',
     					'shortlists' => ['sort' => 'sort-order'],
     					'sponsors' => ['sort' => 'sort-order'] 

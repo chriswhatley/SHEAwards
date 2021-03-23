@@ -41,36 +41,8 @@
 			</div>
 
 			<div class="w-full flex flex-col p-4 w-full lg:w-1/3">
-				<div class="contact-b h-48 bg-cover overflow-hidden border-b-4 border-yellow-500 rounded-t-md"></div>
-				<div class="flex flex-col px-4 md:px-10 py-6 bg-gray-300 rounded-b-md">
-					<div class="flex-1 text-center">
-						<h2 class="text-lg font-bold leading-snug uppercase">Sales Manager</h2>
-						<div class="mt-4 text-md">
-							<div class="font-semibold">Leanne Velez</div>
-
-							<div class="inline-flex items-center mt-2">
-		                        <svg class="mr-3 w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">                               
-		                            <path d="M20 18.35V19a1 1 0 0 1-1 1h-2A17 17 0 0 1 0 3V1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4c0 .56-.31 1.31-.7 1.7L3.16 8.84c1.52 3.6 4.4 6.48 8 8l2.12-2.12c.4-.4 1.15-.71 1.7-.71H19a1 1 0 0 1 .99 1v3.35z"/>
-		                        </svg>                        
-		                         <a class="footer-link" href="tel:+441342333727">01342 333 727</a> <span class="mx-2 font-bold">|</span> <a class="footer-link" href="tel:+447818574309">07818 574 309</a>
-		                    </div>                 
-
-		                    <div class="mt-2">
-		                        <div class="inline-flex items-center">
-		                            <svg class="mr-3 w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">                               
-		                                <path d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z"/>
-		                            </svg>                        
-		                            <a href="mailto:lvelez@westernbusiness.media" class="footer-link">lvelez@westernbusiness.media</a>
-		                        </div> 
-		                    </div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="w-full flex flex-col p-4 w-full lg:w-1/3">
 				<div class="contact-c h-48 bg-cover bg-center overflow-hidden border-b-4 border-yellow-500 rounded-t-md"></div>
-				<div class="flex flex-col px-4 md:px-10 py-6 bg-gray-900 text-white rounded-b-md">
+				<div class="flex flex-col px-4 md:px-10 py-6 bg-gray-300 rounded-b-md">
 					<div class="flex-1 text-center">
 						<h2 class="text-lg font-bold leading-snug uppercase">Event Director</h2>
 						<div class="mt-4 text-md">
@@ -89,6 +61,34 @@
 		                                <path d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z"/>
 		                            </svg>                        
 		                            <a href="mailto:msennett@westernbusiness.media" class="footer-link">msennett@westernbusiness.media</a>
+		                        </div> 
+		                    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="w-full flex flex-col p-4 w-full lg:w-1/3">
+				<div class="contact-b h-48 bg-cover overflow-hidden border-b-4 border-yellow-500 rounded-t-md"></div>
+				<div class="flex flex-col px-4 md:px-10 py-6 bg-gray-900 text-white rounded-b-md">
+					<div class="flex-1 text-center">
+						<h2 class="text-lg font-bold leading-snug uppercase">BSIF Award Categories</h2>
+						<div class="mt-4 text-md">
+							<div class="font-semibold">Ian Crellin (Marketing Manager, BSIF)</div>
+
+							<div class="inline-flex items-center mt-2">
+		                        <svg class="mr-3 w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">                               
+		                            <path d="M20 18.35V19a1 1 0 0 1-1 1h-2A17 17 0 0 1 0 3V1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4c0 .56-.31 1.31-.7 1.7L3.16 8.84c1.52 3.6 4.4 6.48 8 8l2.12-2.12c.4-.4 1.15-.71 1.7-.71H19a1 1 0 0 1 .99 1v3.35z"/>
+		                        </svg>                        
+		                         <a class="footer-link" href="tel:+441442248744">01442 248744</a>
+		                    </div>                 
+
+		                    <div class="mt-2">
+		                        <div class="inline-flex items-center">
+		                            <svg class="mr-3 w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">                               
+		                                <path d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z"/>
+		                            </svg>                        
+		                            <a href="mailto:ian.crellin@bsif.co.uk" class="footer-link">ian.crellin@bsif.co.uk</a>
 		                        </div> 
 		                    </div>
 						</div>

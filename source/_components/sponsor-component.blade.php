@@ -7,7 +7,7 @@
 			<h2 class="w-full text-center md:text-left mt-2 text-3xl text-grey-800 font-semibold uppercase">{{ $sponsor->name }}</h2>										
 			<div class="w-full flex justify-center md:justify-start mt-3 flex text-md uppercase font-semibold lg:tracking-tighter flex items-center">		
 
-				<a href="{{ $page->baseUrl }}/awards" class="flex">
+				<a href="{{ $page->baseUrl }}/nominate" class="flex">
 					<div class="w-6">
 						<img class="mr-4 h-6 w-6 fill-current text-yellow-500" src="{{ $page->baseUrl }}/assets/images/icons/{{ $sponsor->icon }}.svg" alt="Icon">
 					</div>

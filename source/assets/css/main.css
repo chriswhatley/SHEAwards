@@ -997,23 +997,23 @@ video {
 }
 
 .no-webp .hero {
-  background-image: url('../video/she-awards-background-poster-compressed.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7 ), rgba(0, 0, 0, 0.7)), url('../video/she-awards-background-poster-compressed.jpg');
 }
 
 .webp .host {
-  background-image: url('../images/layout/home-alistair-mcgowan-compressed.webp');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7 ), rgba(0, 0, 0, 0.7)), url('../images/layout/home-alan-dedicote-compressed.webp');
 }
 
 .no-webp .host {
-  background-image: url('../images/layout/home-alistair-mcgowan-compressed.jpg');
+  background-image: url('../images/layout/home-alan-dedicote-compressed.jpg');
 }
 
 .webp .host-bio {
-  background-image: url('../images/layout/host-alistair-mcgowan.webp');
+  background-image: url('../images/layout/host-alan-dedicote-compressed.webp');
 }
 
 .no-webp .host-bio {
-  background-image: url('../images/layout/host-alistair-mcgowan.jpg');
+  background-image: url('../images/layout/host-alan-dedicote-compressed.jpg');
 }
 
 .stats h3::after {

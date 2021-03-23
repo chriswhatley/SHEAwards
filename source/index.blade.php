@@ -29,7 +29,7 @@
                 <span class="block mx-auto mt-2 lg:mt-0 px-4 text-sm lg:text-xl tracking-wide">13<sup class="lg:text-xs">th</sup> October 2021 <span class="hidden sm:inline"> &#8226; </span><br class="block sm:hidden" /> {{ $page->awardsLocation }}</span>
             </h1>           
             <div class="mt-6 sm:mt-8 text-center">
-        		<a href="{{ $page->baseUrl }}/tickets" class="btn-primary w-3/4 md:w-1/3  max-w-xs text-md sm:text-sm md:text-md lg:text-lg">
+        		<a href="{{ $page->awardsURL }}" target="_blank" class="btn-primary w-3/4 md:w-1/3  max-w-xs text-md sm:text-sm md:text-md lg:text-lg">
         			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
         				<path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
         			</svg>
@@ -53,7 +53,7 @@
             <div class="text-center">
                 <h2 class="text-2xl lg:text-4xl font-bold leading-tight tracking-tight uppercase">THE SAFETY & HEALTH EXCELLENCE AWARDS</h2>
                 <h3 class="text-base lg:text-xl mt-6 font-semibold">
-                    Be part of the the Safety & Health Excellence Awards, in conjunction with the BSIF, which will be held at the magnificent VOX event centre at Resorts World next to the NEC.
+                    Be part of the the Safety & Health Excellence Awards, in conjunction with the BSIF, which will be part of <a href="https://hsmlive.co.uk/hsm_live/en/page/home" target="_blank" class="text-yellow-500 font-bold">Health &amp; Safety Matters Live</a>, an unmissable interactive digital conference new for 2021. 
                 </h3>
             </div>
 
@@ -69,7 +69,7 @@
             <div class="sm:flex justify-center mt-6 text-white">
             	
             	<div class="w-full px-6 justify-center sm:w-1/3 sm:px-1 md:px-4">
-            		<a href="{{ $page->baseUrl }}/awards" class="btn-primary w-full text-md sm:text-sm lg:text-lg">
+            		<a href="{{ $page->baseUrl }}/nominate" class="btn-primary w-full text-md sm:text-sm lg:text-lg">
             			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline md:inline w-4 h-4 mr-2">
             				<path d="M15 9a3 3 0 0 0 3-3h2a5 5 0 0 1-5.1 5 5 5 0 0 1-3.9 3.9V17l5 2v1H4v-1l5-2v-2.1A5 5 0 0 1 5.1 11H5a5 5 0 0 1-5-5h2a3 3 0 0 0 3 3V4H2v2H0V2h5V0h10v2h5v4h-2V4h-3v5z"/>
             			</svg>
@@ -131,8 +131,8 @@
 
 			{{-- Small/medium screen host section --}}
 			<div class="md:flex lg:hidden">
-	        	<div class="h-48 sm:h-84 md:h-96 w-full md:w-1/2 bg-cover bg-center host flex items-center text-white">
-	        		<h3 class="pl-6 text-md sm:text-2xl font-bold leading-relaxed tracking-tight uppercase">Awards Host<br /> Alistair McGowan</h3>    		
+	        	<div class="h-48 sm:h-56 md:h-72 w-full md:w-1/2 bg-cover bg-center bg-no-repeat host flex items-center text-white">
+	        		<h3 class="pl-6 text-md sm:text-2xl font-bold leading-relaxed tracking-tight uppercase">Master Of Ceremonies<br /> Alan Dedicote</h3>    		
 	        	</div>
 
 				<div class="w-full md:w-1/2 px-6 pt-6 pb-8 flex items-center">				
@@ -148,7 +148,6 @@
 		            		</a>
 		            	</div>
 
-
 					</div>
 				</div>
 			</div>
@@ -156,11 +155,11 @@
 			<div class="lg:flex">
 
 				{{-- Large screen host section --}}
-				<div class="hidden lg:flex lg:w-1/2 items-center bg-cover bg-center host text-white">			
-	        		<div class="py-12 pl-10 w-2/3">        		
-	        			<h3 class="lg:text-2xl font-bold leading-tight tracking-tight uppercase">Awards Host<br /> Alistair McGowan</h3>
-		        		<p class="mt-6 pr-16">Alistair McGowan has been hailed by  The Times as a ‘voice virtuoso.’ His  repertoire includes a gallery of  politicians, pop stars and sportsmen –like a romp through the news,  gossip columns and back  page headlines.</p>        		
-		        		<div class="mt-10">
+				<div class="hidden lg:flex lg:w-1/2 items-end bg-no-repeat bg-cover bg-center host text-white">			
+	        		<div class="pb-10 px-10 w-full">        		
+	        			<h3 class="lg:text-2xl font-bold leading-tight tracking-tight uppercase">Master Of Ceremonies<br /> Alan Dedicote</h3>
+		        		<p class="mt-3">We are delighted to announce The ‘Voice of the Balls’ and Radio 2’s Chief Network Announcer Alan Dedicote as Master Of Ceremonies of this year's Awards.</p>        		
+		        		<div class="mt-6">
 		        			<a href="{{ $page->baseUrl }}/host" class="btn-primary w-4/5 max-w-xs">		            	
 		            			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
 		            				<path d="M15.75 8l-3.74-3.75a3.99 3.99 0 0 1 6.82-3.08A4 4 0 0 1 15.75 8zM1.85 15.3l9.2-9.19 2.83 2.83-9.2 9.2-2.82-2.84zm-1.4 2.83l2.11-2.12 1.42 1.42-2.12 2.12-1.42-1.42zM10 15l2-2v7h-2v-5z"/>
@@ -169,7 +168,7 @@
 		            		</a>		           
 		            	</div>
 	        		</div>        	
-	        	</div>  	        		 
+	        	</div>    	        		 
 			
 				<div class="lg:flex lg:w-1/2">
 					<div class="w-full bg-gray-800">
@@ -186,7 +185,7 @@
 			            	</div>					
 						</div>        		
 
-		        		<div class="w-full flex h-56 lg:h-64">
+		        		<div class="w-full flex h-56">
 		        			<div class="w-1/2 sm:w-1/3 h-auto gallery-tile-a"></div>
 		        			<div class="hidden sm:block sm:w-1/3 h-auto gallery-tile-b"></div>
 		        			<div class="w-1/2 sm:w-1/3 h-auto gallery-tile-c"></div>
@@ -203,7 +202,7 @@
 						<div class="px-6 py-16 bg-gray-800">									
 							<h3 class="lg:text-2xl font-bold leading-tight tracking-tight uppercase text-white text-center">SHE Awards Categories</h3>				    	   	
 			            	<div class="mt-6 text-center">
-			            		<a href="{{ $page->baseUrl }}/awards" class="btn-primary w-4/5 max-w-xs">
+			            		<a href="{{ $page->baseUrl }}/nominate" class="btn-primary w-4/5 max-w-xs">
 			            			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
 			            				<path d="M3 6c0-1.1.9-2 2-2h8l4-4h2v16h-2l-4-4H5a2 2 0 0 1-2-2H1V6h2zm8 9v5H8l-1.67-5H5v-2h8v2h-2z"/>
 			            			</svg>

@@ -2,9 +2,9 @@
 name: Shawcity
 logo: shawcity
 website: https://www.shawcity.co.uk/
-sponsorship: Host Sponsor
+sponsorship: Host Sponsor & Lifetime Achievement Awards Sponsor
 icon: artist
-sort-order: 10
+sort-order: 9
 ---
 For over 40 years Shawcity have focused on bringing the latest monitoring technology from leading manufacturers to the UK and Ireland. Our customers work in Health & Safety, Occupational Hygiene and Environmental applications and rely on achieving the highest levels of performance.
 

@@ -1,34 +1,42 @@
-@extends('_layouts.master', 
-	['page_title' => 'Make A nomination', 
-	'meta_title' => 'Don’t miss out on this great night of entertainment and networking as we toast the best in the health, safety and fire safety sectors.', 
-	'meta_description' => 'Join more than 550 of your peers by celebrating excellence at the industry’s biggest networking evening of the year.'])
+---
+pagination:
+    collection: awards
+    perPage: 15
+---
 
-	@section('content')
+@extends('_layouts.master', 
+	['page_title' => 'Awards Categories', 
+	'meta_title' => 'Associate your brand with excellence at The Safety & Health Excellence Awards', 
+	'meta_description' => 'Reach thousands of industry professionals before, during and after the event, network with the industry’s most influential people and a unique opportunity to position your organisation as an industry leader!'])
+
+@section('content')
 
 	{{-- Main Content --}}
-	<main class="relative bg-white w-full z-10">
+    <main class="relative bg-white w-full z-10">
 
-		@include('_components.title-component', ['title' => 'Make A Nomination', 'background_image' => 'header-a'])
+    	@include('_components.title-component', ['title' => 'The Awards Categories', 'background_image' => 'header-a'])
+       
+        <section class="container mx-auto py-10 px-6">
 
-		<section class="container mx-auto px-6">  
+        	<div class="w-full text-center">
+	    		<p>Please make sure you have properly read the categories and criteria before entering. The criteria is different for each category and you are able to enter multiple categories. You can also enter more than once in each category, provided they are different entries.</p>
+	    		
+				<p class="mt-4 text-center font-semibold">DEADLINE FOR ENTRIES: {{ $page->nominationDeadline }} at 11:59PM.</p>
+	    	</div>
 
-			<div class="flex flex-wrap">
-				
-				<div class="mt-6 mx-auto">
-					<p class="text-lg md:mx-auto md:text-xl lg:text-2xl md:text-center font-semibold leading-tight lg:leading-tight uppercase">Submit a nomination for this year's Safety &amp; Health Excellence Awards.</p>
-					<p class="mt-6 md:mt-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, doloremque ab reiciendis sequi nesciunt harum mollitia vitae, facere ipsam saepe consectetur, labore commodi quas. Id, repudiandae. Voluptas provident aperiam eaque.</p>									
-				</div>
-				<div class="xl:mt-3">
-					<div class="w-full attendee-tickets bg-top bg-cover rounded-md overflow-hidden h-64 md:h-72 lg:h-84 xl:h-96 mt-6 md:w-1/2 md:float-right md:ml-6 md:mb-6 lg:ml-8 lg:mb-8"></div>
-					<p class="mt-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id itaque vitae molestiae iusto voluptatum incidunt reprehenderit quia culpa ipsa maiores, iure cum deserunt voluptatem quos nam, sunt, quidem reiciendis voluptatibus.</p>					
-					<p class="mt-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam temporibus quos hic placeat, laborum quod, incidunt consequuntur a quidem fugit doloremque aliquid non, fuga ut reiciendis deleniti blanditiis vitae. Voluptatem!</p>
-					<p class="mt-6 font-bold">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Repellat accusantium ex voluptates itaque amet dolore suscipit provident neque dolor repudiandae. Vitae nesciunt accusamus, facilis officiis aliquam ipsam alias ducimus, et.</p>
-				</div>
+			<div class="mt-12 flex flex-wrap">
+				@foreach ($pagination->items as $award)
 
+					@include('_components.award-component')
+
+					{{-- @if ($award != $pagination->items->last())
+			            <hr class="border-b my-10">
+			        @endif --}}
+
+				@endforeach
 			</div>
-		</section>	
+		 	
 
-		@include('_partials.collage')
-	</main>
+		</section>
 
 @endsection
