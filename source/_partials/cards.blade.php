@@ -9,7 +9,7 @@
 					This unmissable networking event, brought to you by the publishers of Health &amp; Safety Matters journal.
 				</p>
 			</div>
-			<a href="{{ $page->baseUrl }}/assets/docs/she-awards-sales-brochure-2020.pdf" target="_blank" class="btn-primary inline-flex items-center justify-center mt-4 text-md sm:text-sm md:text-md">
+			<a href="{{ $page->baseUrl }}/assets/docs/she-awards-brochure-2022.pdf" target="_blank" class="btn-primary inline-flex items-center justify-center mt-4 text-md sm:text-sm md:text-md">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
 					<path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/>
 				</svg>

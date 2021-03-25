@@ -16,9 +16,10 @@
 				<div class="contact-a h-48 bg-cover overflow-hidden border-b-4 border-yellow-500 rounded-t-md"></div>
 				<div class="flex flex-col px-4 md:px-10 py-6 bg-gray-900 text-white rounded-b-md">
 					<div class="flex-1 text-center">
-						<h2 class="text-lg font-bold leading-snug uppercase">Sales Manager</h2>
+						<h2 class="text-lg font-bold leading-snug uppercase">Sponsorship opportunities</h2>
 						<div class="mt-4 text-md">
 							<div class="font-semibold">Christine Fitzgerald</div>
+							<div>Sales Manager</div>
 
 							<div class="inline-flex items-center mt-2">
 		                        <svg class="mr-3 w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">                               
@@ -44,9 +45,10 @@
 				<div class="contact-c h-48 bg-cover bg-center overflow-hidden border-b-4 border-yellow-500 rounded-t-md"></div>
 				<div class="flex flex-col px-4 md:px-10 py-6 bg-gray-300 rounded-b-md">
 					<div class="flex-1 text-center">
-						<h2 class="text-lg font-bold leading-snug uppercase">Event Director</h2>
+						<h2 class="text-lg font-bold leading-snug uppercase">General event enquiries</h2>
 						<div class="mt-4 text-md">
 							<div class="font-semibold">Mark Sennett</div>
+							<div>Event Director</div>
 
 							<div class="inline-flex items-center mt-2">
 		                        <svg class="mr-3 w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">                               
@@ -74,7 +76,8 @@
 					<div class="flex-1 text-center">
 						<h2 class="text-lg font-bold leading-snug uppercase">BSIF Award Categories</h2>
 						<div class="mt-4 text-md">
-							<div class="font-semibold">Ian Crellin (Marketing Manager, BSIF)</div>
+							<div class="font-semibold">Ian Crellin</div>
+							<div>Marketing Manager, BSIF</div>
 
 							<div class="inline-flex items-center mt-2">
 		                        <svg class="mr-3 w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">                               

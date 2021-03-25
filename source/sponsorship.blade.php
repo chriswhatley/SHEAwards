@@ -13,18 +13,17 @@
 		<section class="container mx-auto md:py-10 px-5 md:px-6">  
 
 			<div class="hidden md:block md:w-full md:mb-4">
-				<p class="uppercase leading-tight text-xl font-semibold">The Safety &amp; Health Excellence Awards return for the fourth year running after successfully attracting more than 200 entries and 525 guests in 2020.</p>		
+				<p class="uppercase leading-tight text-xl font-semibold">The Safety & Health Excellence Awards return after successfully attracting more than 200 entries in 2021.</p>		
 			</div>
 
 			<div class="md:flex md:mt-6">
 				<div class="md:w-1/2 xl:mt-6">
-					<p class="md:hidden mt-6 text-lg font-semibold leading-tight">The Safety &amp; Health Excellence Awards return for the fourth year running after successfully attracting more than 200 entries and 525 guests in 2020.</p>
-					<p class="mt-6 md:mt-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima ea eveniet aliquam vitae aliquid natus alias sunt facere rerum quidem. Iure cumque perferendis voluptates magnam placeat consequuntur nemo obcaecati alias?</p>
-					<p class="mt-6 md:mt-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero inventore dignissimos, sit dolore vitae facere vel. Commodi nemo nostrum asperiores neque dolorem dolores voluptatem est doloribus, necessitatibus soluta, pariatur enim?</p>
-					<p class="mt-6 md:mt-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorum, dolore voluptatibus vel cumque minus totam nam expedita blanditiis impedit! Delectus, totam, eveniet tenetur vero nobis nihil reprehenderit sed quaerat.</p>
+					<p class="md:hidden mt-6 text-lg font-semibold leading-tight">The Awards celebrate innovation and achievements in the health and safety. The ceremony will encompass the long-established British Safety Industry Federation (BSIF) Awards that promote the importance of innovation and underline the highest standards of excellence within occupational safety and health.</p>
+					<p class="mt-6 md:mt-0">The Awards celebrate innovation and achievements in the health and safety. The ceremony will encompass the long-established British Safety Industry Federation (BSIF) Awards that promote the importance of innovation and underline the highest standards of excellence within occupational safety and health.</p>
+					<p class="mt-6 md:mt-0">The awards will once again be held at the prestigious VOX Conference Centre on 6 April 2022 at the NEC, Birmingham. With the leading safety, health and fire safety brands on site for The Health & Safety Event, The Fire Safety Event, The Security Event and The Facilities Event, this is the ideal opportunity for the industry to gather to celebrate excellence.</p>
 					
 					<div class="mt-4 text-center md:text-left">
-						<a href="{{ $page->baseUrl }}/assets/docs/she-awards-sales-brochure-2020.pdf" target="_blank" class="btn-primary mt-4 text-md sm:text-sm md:text-md">
+						<a href="{{ $page->baseUrl }}/assets/docs/she-awards-brochure-2022.pdf" target="_blank" class="btn-primary mt-4 text-md sm:text-sm md:text-md">
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
 								<path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/>
 							</svg>

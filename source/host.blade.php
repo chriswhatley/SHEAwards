@@ -18,18 +18,18 @@
 					<p class="text-lg md:mx-auto md:text-xl lg:text-2xl md:text-center font-semibold leading-tight lg:leading-tight uppercase">We are delighted to announce The ‘Voice of the Balls’ and Radio 2’s Chief Network Announcer Alan Dedicote as Master Of Ceremonies of this year's Awards.</p>
 				</div>
 				<div class="">
-					<p class="mt-4 md:mt-6 md:pr-4 font-semibold">The ‘Voice of the Balls’ and Radio 2’s Chief Network Announcer also presides over Strictly Come Dancing. Deadly Alancoat regales audiences with a stream of quips, out-takes and tips on how to maximise your chances in the National Lottery. And he’s a polished corporate quizmaster.</p>									
+					<p class="mt-4 md:mt-6 md:pr-4 font-semibold">He has been a well known voice across BBC output for over 30 years, and was a regular sidekick to the late Sir Terry Wogan on Radio 2's "Wake Up to Wogan" breakfast programme where he was most commonly known as "Deadly".</p>									
 		
 					<div class="float-left w-full h-72 md:w-1/3 md:h-56 lg:w-2/5 lg:h-84 mr-8 my-4 host-bio bg-top bg-cover rounded-md overflow-hidden"></div>
 			
 					<p class="mt-6">
-						Alan Dedicoat became known to millions of viewers as 'The Voice of the Balls', providing instant commentary for the National Lottery Draw for over 20 years. He is also the voice of Strictly Come Dancing, and its US sister show Dancing with the Stars, and became a popular part of breakfast across the country as foil to Terry Wogan's banter on his Radio 2 show.
+						He was educated at King Edward VI School for Boys in Birmingham, and the University of Birmingham.
 					</p>
 					<p class="mt-6">
-						Alan originally trained to be a lawyer but was seduced by hospital radio into a career in broadcast sing. Several years on local stations were followed by a move to London and Radio 2, eventually becoming the network's Chief Announcer where he spent almost 30 years.
+						His radio career took off at BBC Pebble Mill where he worked as a station assistant for BBC Radio Birmingham, and then he spent four more years in Plymouth and Exeter as a producer/presenter for BBC Radio Devon.
 					</p>
 					<p class="mt-6">
-						As well as live voice overs and speaking after dinner, Alan is a natural quizmaster. With a stream of quips, he maintains perfect order as he tests teams on everything from classic pop hits, national flags to company logos and even knowledge of their own industry.
+						In 1987 Alan joined the Presentation Department of Radio 2 at Broadcasting House in London, voicing trails and promotions. Since 1995 he has been providing live commentary for the National Lottery draws, while in the US he is the voice-over announcer for ABC's Dancing with the Stars (the US version of Strictly Come Dancing), which he has done since 2005.
 					</p>
 
 					<div class="mt-6 text-center md:text-center">
