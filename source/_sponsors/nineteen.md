@@ -1,8 +1,8 @@
 ---
 name: Nineteen
 logo: nineteen
-website: https://www.internationalsecurityexpo.com/
-sponsorship: Rising Star Of The Year Sponsor
+website: https://www.nineteengroup.com/
+sponsorship: Best Health & Safety In Manufacturing Sponsor
 icon: star-full
 sort-order: 8
 ---
