@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M17 16a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4.01V4a1 1 0 0 1 1-1 1 1 0 0 1 1 1v6h1V2a1 1 0 0 1 1-1 1 1 0 0 1 1 1v8h1V1a1 1 0 1 1 2 0v9h1V2a1 1 0 0 1 1-1 1 1 0 0 1 1 1v13h1V9a1 1 0 0 1 1-1h1v8z"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <path d="M17,16C17,18.194 15.194,20 13,20L7,20C4.806,20 3,18.194 3,16C3,15.997 3,15.993 3,15.99L3,4C3,3.451 3.451,3 4,3C4.549,3 5,3.451 5,4L5,10L6,10L6,2C6,1.451 6.451,1 7,1C7.549,1 8,1.451 8,2L8,10L9,10L9,1C9,0.451 9.451,0 10,0C10.549,-0 11,0.451 11,1L11,10L12,10L12,2C12,1.451 12.451,1 13,1C13.549,1 14,1.451 14,2L14,15L15,15L15,9C15,8.451 15.451,8 16,8L17,8L17,16Z" style="fill-rule:nonzero;"/>
+</svg>

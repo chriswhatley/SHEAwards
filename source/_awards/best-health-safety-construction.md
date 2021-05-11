@@ -3,6 +3,7 @@ title: Best health & safety in construction
 criteria: she-awards-2021-best-health-safety-in-construction.pdf
 sponsor: turner-townsend
 icon: home
+nominationURL: /award-nomination
 ---
 This category is designed to recognise a construction project, which has an exemplary health and safety record. Entrants must explain how the project ensured the health, safety and wellbeing of anyone who had access to or worked on the construction site.
 

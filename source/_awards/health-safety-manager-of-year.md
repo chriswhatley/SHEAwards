@@ -3,6 +3,7 @@ title: Health & safety manager of the year award
 criteria: she-awards-2021-hsm-health-safety-manager-of-year.pdf
 sponsor: alcumus
 icon: user
+nominationURL: /award-nomination
 ---
 This category is designed to recognise a health and safety manager who made a significant contribution to the implementation or enhancement of health, safety or wellbeing standards within either their own or a client organisation.
 

@@ -3,6 +3,7 @@ title: Best health & safety in manufacturing
 criteria: she-awards-2021-best-health-safety-manufacturing.pdf
 sponsor: nineteen
 icon: factory
+nominationURL: /award-nomination
 ---
 This category is designed to recognise a manufacturing premises, which can demonstrate either an exemplary health and safety record or how it has taken significant steps to improve health and safety standards. Entrants must explain how they have ensured the health, safety and wellbeing of anyone who had access to or worked at the premises.
 

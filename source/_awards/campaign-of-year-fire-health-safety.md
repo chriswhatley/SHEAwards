@@ -3,6 +3,7 @@ title: Campaign of the year (Fire, Health & Safety)
 criteria: she-awards-2021-campaign-of-year-health-safety.pdf
 sponsor: 
 icon: buoy
+nominationURL: /award-nomination
 ---
 This category is designed to recognise the implementation of a campaign that has led to significant improvements to any of health, safety, fire safety or security to persons or premises. 
 

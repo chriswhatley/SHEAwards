@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="h-5 w-5"><path d="M16 8A6 6 0 1 0 4 8v11H2a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2V8a8 8 0 1 1 16 0v3a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2V8zm-4 2h3v10h-3V10zm-7 0h3v10H5V10z"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <path d="M16,8C16,4.708 13.292,2 10,2C6.708,2 4,4.708 4,8L4,19L2,19C0.903,19 0,18.097 0,17L0,13C-0,11.903 0.903,11 2,11L2,8C2,3.611 5.611,0 10,0C14.389,-0 18,3.611 18,8L18,11C19.097,11 20,11.903 20,13L20,17C20,18.097 19.097,19 18,19L16,19L16,8ZM12,10L15,10L15,20L12,20L12,10ZM5,10L8,10L8,20L5,20L5,10Z" style="fill-rule:nonzero;"/>
+</svg>

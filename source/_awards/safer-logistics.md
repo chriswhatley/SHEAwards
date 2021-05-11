@@ -3,6 +3,7 @@ title: The safer logistics award
 criteria: she-awards-2021-safer-logistics-award.pdf
 sponsor: toyota
 icon: truck
+nominationURL: /award-nomination
 ---
 The Safer Logistics Award is a celebration of safety excellence in the logistics and supply chain sectors. 
 

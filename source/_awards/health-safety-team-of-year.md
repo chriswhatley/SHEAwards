@@ -3,6 +3,7 @@ title: Health & safety team of the year
 criteria: she-awards-2021-health-safety-team-of-year.pdf
 sponsor: nebosh
 icon: user-group
+nominationURL: /award-nomination
 ---
 This category is designed to recognise health and safety teams that are making a significant difference in their workplace. 
 
