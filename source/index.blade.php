@@ -29,7 +29,7 @@
                 <span class="block mx-auto mt-2 lg:mt-0 px-4 text-sm lg:text-xl tracking-wide">13<sup class="lg:text-xs">th</sup> October 2021 <span class="hidden sm:inline"> &#8226; </span><br class="block sm:hidden" /> {{ $page->awardsLocation }}</span>
             </h1>           
             <div class="mt-6 sm:mt-8 text-center">
-        		<a href="{{ $page->awardsURL }}" target="_blank" class="btn-primary w-3/4 md:w-1/3  max-w-xs text-md sm:text-sm md:text-md lg:text-lg">
+        		<a href="{{ $page->awardsURL }}" target="_blank" rel="noopener" class="btn-primary w-3/4 md:w-1/3  max-w-xs text-md sm:text-sm md:text-md lg:text-lg">
         			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
         				<path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
         			</svg>
@@ -53,7 +53,7 @@
             <div class="text-center">
                 <h2 class="text-2xl lg:text-4xl font-bold leading-tight tracking-tight uppercase">THE SAFETY & HEALTH EXCELLENCE AWARDS</h2>
                 <h3 class="text-base lg:text-xl mt-6 font-semibold">
-                    Be part of the the Safety & Health Excellence Awards, in conjunction with the BSIF, which will be part of <a href="https://hsmlive.co.uk/hsm_live/en/page/home" target="_blank" class="text-yellow-500 font-bold">Health &amp; Safety Matters Live</a>, an unmissable interactive digital conference new for 2021. 
+                    Be part of the the Safety & Health Excellence Awards, in conjunction with the BSIF, which will be part of <a href="https://hsmlive.co.uk/hsm_live/en/page/home" target="_blank" rel="noopener" class="text-yellow-500 font-bold">Health &amp; Safety Matters Live</a>, an unmissable interactive digital conference new for 2021. 
                 </h3>
             </div>
 
