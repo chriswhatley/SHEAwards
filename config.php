@@ -1,8 +1,8 @@
-\<?php
+<?php
 
 return [
     'production' => false,
-    'baseUrl' => 'http://localhost:3000',
+    'baseUrl' => 'http://localhost:3001',
 	// 'baseUrl' => 'http://192.168.0.65:3000',
     'siteTitle' => 'SHE Awards 2021',
     'awardsDate' => '13th October 2021',
