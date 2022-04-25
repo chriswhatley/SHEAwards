@@ -254,7 +254,7 @@
 		{{-- Video --}}
 		<section x-data="{ open: false }" x-init="$watch('open', value => stopVideo())" class="bg-cover bg-top overflow-hidden highlights-video highlight-border-bottom">
 
-			@include('_components/modal', ['videoID' => 'PR_OnZIh1MY'])		
+			@include('_components/modal', ['videoID' => '58nrVWRAZ-A'])		
 	        
 			<div class="container mx-auto px-6 py-24 text-white text-center max-w-screen-lg">
 				<h2 class="text-2xl lg:text-4xl font-bold leading-tight tracking-tight uppercase">
@@ -266,7 +266,7 @@
 
 	            {{-- Small screeen point user to YouTube directly --}}
 	            <div class="md:hidden mt-10 text-center">
-	        		<a href="https://www.youtube.com/watch?v=PR_OnZIh1MY&feature=emb_title" target="_blank" rel="noopener" class="btn-primary w-4/5 max-w-xs">
+	        		<a href="https://www.youtube.com/watch?v=58nrVWRAZ-A&feature=emb_title" target="_blank" rel="noopener" class="btn-primary w-4/5 max-w-xs">
 	        			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
 	        				<path d="M16 7l4-4v14l-4-4v3a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v3zm-8 7a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0-2a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/>
 	        			</svg>
