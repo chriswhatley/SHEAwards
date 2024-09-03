@@ -24,7 +24,7 @@
 		@if($award->sponsor)
 			<div class="mt-12 text-md text-center">Sponsored by</div>
 			<div class="mt-4 flex justify-center">
-				<img class="h-20 w-auto max-w-sm" src="{{ $page->baseUrl }}/assets/images/sponsors/awards/{{ str_replace(' ', '-', $award->sponsor) }}.svg" alt="{{ $award->sponsor }}">
+				<img class="h-20 w-auto max-w-sm" src="{{ $page->baseUrl }}/assets/images/sponsors/awards/{{ strtolower(str_replace(' ', '-', $award->sponsor)) }}.svg" alt="{{ $award->sponsor }}">
 			</div>
 		@endif
 	</div>
