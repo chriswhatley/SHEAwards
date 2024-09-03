@@ -4,10 +4,10 @@
         <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>Awards Shortlist | SHE Awards 2021</title>
+<title>Awards Shortlist | SHE Awards 2024</title>
 <meta name="description" content="Join more than 550 of your peers for a not to be missed evening that celebrates excellence in health and safety!">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;900&display=swap" rel="stylesheet" rel="preload">
-<link rel="stylesheet" href="https://she-awards.netlify.app/assets/css/main.css?id=241b8d99b4ea442bb204">
+<link rel="stylesheet" href="https://she-awards.netlify.app/assets/css/main.css?id=ab814909967a9811db0d">
 <link rel="apple-touch-icon" sizes="180x180" href="https://she-awards.netlify.app/assets/images/meta/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://she-awards.netlify.app/assets/images/meta/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="https://she-awards.netlify.app/assets/images/meta/favicon-16x16.png">
@@ -30,7 +30,11 @@
         <header class="fixed w-full px-3 py-4 lg:px-12 lg:py-6 bg-black text-white flex justify-between z-20">            
         
     <a href="https://she-awards.netlify.app">
-        <img src="https://she-awards.netlify.app/assets/images/layout/she-awards-2021-logo.svg" alt="The SHE Awards 2021" class="h-16 lg:h-24 w-auto">
+        <picture>
+          <source media="(min-width:768px)" srcset="https://she-awards.netlify.app/assets/images/layout/logo-with-date.webp">
+          <source media="(max-width:767px)" srcset="https://she-awards.netlify.app/assets/images/layout/logo-no-date.webp">
+          <img src="https://she-awards.netlify.app/assets/images/layout/logo-fallback.png" alt="The SHE Awards" class="h-16 lg:h-24 w-auto">
+        </picture>
     </a>                
         
     <nav class="flex">
@@ -79,8 +83,11 @@
                 >                   
 			
 					<div class="relative my-6">
-						<div class="w-4/5 pl-3 md:pl-6">
-							<img src="https://she-awards.netlify.app/assets/images/layout/she-awards-2021-logo.svg" alt="The SHE Awards 2021" class="w-18" @click="open = !open">		                    			
+						<div class="w-3/5 sm:w-1/2 pl-3 md:pl-6">
+                            <picture>
+                                <source srcset="https://she-awards.netlify.app/assets/images/layout/logo-no-date.webp">
+                                <img src="https://she-awards.netlify.app/assets/images/layout/logo-fallback.png" alt="The SHE Awards" class="w-18" @click="open = !open">                                     
+                            </picture>
 						</div>
 						<div class="absolute top-0 right-0 md:hidden w-1/5 sm:pr-4 flex justify-end pt-2 pr-2">
 							<button @click="open = !open" class="relative top-0 right-0 z-20 text-yellow-500 focus:outline-none focus:border-blue-500 focus:shadow-outline-none">                                       
@@ -99,6 +106,22 @@
                                 </svg>
                                 Home
                             </a>
+                        </li>   
+                        <li>
+                            <a href="https://she-awards.netlify.app/winners" class="nav-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
+                                    <path d="M15 9a3 3 0 0 0 3-3h2a5 5 0 0 1-5.1 5 5 5 0 0 1-3.9 3.9V17l5 2v1H4v-1l5-2v-2.1A5 5 0 0 1 5.1 11H5a5 5 0 0 1-5-5h2a3 3 0 0 0 3 3V4H2v2H0V2h5V0h10v2h5v4h-2V4h-3v5z"/>
+                                </svg>
+                             2024 Winners
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://she-awards.netlify.app/shortlist" class="nav-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
+                                    <path d="M3 6c0-1.1.9-2 2-2h8l4-4h2v16h-2l-4-4H5a2 2 0 0 1-2-2H1V6h2zm8 9v5H8l-1.67-5H5v-2h8v2h-2z"/>
+                                </svg>
+                                2024 Shortlists
+                            </a>
                         </li>                            
                         <li>
                         	<a href="/nominate" class="nav-item">
@@ -108,14 +131,6 @@
                         		The Awards
                         	</a>
                         </li>                                                            
-                        <li>
-                        	<a href="/nominate" class="nav-item">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
-                                    <path d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z"/>
-                                </svg>
-                        		Make A Nomination
-                        	</a>
-                        </li>                            
                         <li>
                         	<a href="https://she-awards.netlify.app/charity" class="nav-item">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
@@ -157,11 +172,11 @@
                         	</a>
                         </li>                            
                         <li>
-                        	<a href="https://hsmlive.co.uk/hsm_live/en/page/home" class="nav-item bg-yellow-500">
+                        	<a href="https://form.jotform.com/232674667151360" class="nav-item bg-yellow-500">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
                                     <path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
                                 </svg>
-                        		Register To Attend
+                        		Book Your Tickets
                         	</a>
                         </li>                            
                     </ul>                          
@@ -178,20 +193,9 @@
 
     	<div class="absolute top-0 left-0 h-64 md:h-84 w-full z-10 highlight-border-bottom" style="background-color:rgba(21,45,59,0.50);"></div>
 <div class="header-b w-full h-64 md:h-84 bg-bottom bg-no-repeat bg-cover object-cover flex items-center text-center justify-center">
-	<h2 class="text-3xl mt-20 md:mt-16 md:text-5xl md:mt-20 lg:mt-32 uppercase font-bold text-white z-50 tracking-tighter leading-tight">The Shortlists</h2>
+	<h2 class="text-3xl mt-20 md:mt-16 md:text-5xl md:mt-20 lg:mt-32 uppercase font-bold text-white z-50 tracking-tighter leading-tight">SHE Awards 2024 Shortlists</h2>
 </div>       
         <section class="container mx-auto py-10 px-6 ">
-
-        	<div class="w-full text-center">
-	    		<p>More than 200 entries were received for the 2020 Awards across 10 Categories. The winners will be announced at a gala dinner hosted by comedian Alistair McGowan on 13th October 2021 at the Vox, Resorts World Birmingham.</p>
-				<p class="mt-4 font-semibold">Tickets to attend cost &pound;199+VAT or &pound;1800+VAT for a table of 10.</p>
-				<a href="/tickets" class="btn-primary mt-4 text-md sm:text-sm md:text-md">
-        			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
-        				<path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
-        			</svg>
-        			Buy Tickets Now
-        		</a>
-	    	</div>
 
 	    	<div class="mt-6 flex flex-wrap">
 
@@ -205,21 +209,64 @@
 			</div>
 			
 			<h3 class="mt-2 text-xl text-grey-800 font-semibold uppercase">Alan McArthur Unsung Hero</h3>										
-			
-							<div class="mt-1 text-md text-center">Sponsored by 3M</div>
-					</div>
+		</div>
 		
 		<ul class="mt-3 ml-4 sm:ml-6 md:ml-6 list-disc">
-							<li class="text-md">Adam Gomes - Omegas Enterprises Ltd</li>
-							<li class="text-md">Ashleigh Morgan - Macblair</li>
-							<li class="text-md">Chris Tidy - Centurion Safety Products Ltd</li>
-							<li class="text-md">Jane Downey - Travis Perkins</li>
-							<li class="text-md">Richard Abbess - Siemens Mobility Rolling Stock</li>
-							<li class="text-md">Sarah Broadbent - 3M UK</li>
-							<li class="text-md">Steven Truckle - John Pye and Sons Ltd</li>
-							<li class="text-md">John Quarless – Kier Highways</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Adam Gomes - Omegas Enterprises Ltd</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Ashleigh Morgan - Macblair</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Chris Tidy - Centurion Safety Products Ltd</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Jane Downey - Travis Perkins</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Richard Abbess - Siemens Mobility Rolling Stock</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Sarah Broadbent - 3M UK</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Steven Truckle - John Pye and Sons Ltd</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>John Quarless – Kier Highways</div>
+				</li>
 					</ul>
-	</div>
+
+					<div class="mt-12 text-md text-center">Sponsored by</div>
+			<div class="mt-4 flex justify-center">
+				<img class="h-20 w-auto max-w-sm" src="https://she-awards.netlify.app/assets/images/sponsors/awards/3M.svg" alt="3M">
+			</div>
+			</div>
 </div>
 		
 
@@ -234,20 +281,60 @@
 			</div>
 			
 			<h3 class="mt-2 text-xl text-grey-800 font-semibold uppercase">Best Health &amp; Safety In Manufacturing</h3>										
-			
-					</div>
+		</div>
 		
 		<ul class="mt-3 ml-4 sm:ml-6 md:ml-6 list-disc">
-							<li class="text-md">Bury Black Pudding Company</li>
-							<li class="text-md">Centurion Safety Products</li>
-							<li class="text-md">H+H UK Ltd</li>
-							<li class="text-md">Hughes Safety Showers</li>
-							<li class="text-md">IMI Critical Engineering</li>
-							<li class="text-md">Ryobi UK ltd</li>
-							<li class="text-md">Siemens Mobility</li>
-							<li class="text-md">Trigon Snacks Trading Ltd</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Bury Black Pudding Company</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Centurion Safety Products</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>H+H UK Ltd</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Hughes Safety Showers</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>IMI Critical Engineering</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Ryobi UK ltd</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Siemens Mobility</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Trigon Snacks Trading Ltd</div>
+				</li>
 					</ul>
-	</div>
+
+			</div>
 </div>
 		
 
@@ -262,25 +349,90 @@
 			</div>
 			
 			<h3 class="mt-2 text-xl text-grey-800 font-semibold uppercase">Innovation Of The Year For Fire</h3>										
-			
-					</div>
+		</div>
 		
 		<ul class="mt-3 ml-4 sm:ml-6 md:ml-6 list-disc">
-							<li class="text-md">Apreco - VARI-centric APSX-FSS</li>
-							<li class="text-md">Air Pressure Stabiliser</li>
-							<li class="text-md">Chute Fire Certification Ltd - Chute Fire Safety System</li>
-							<li class="text-md">Coltraco Ultrasonics - Portalevel TOUCH</li>
-							<li class="text-md">C-Tec - Hush Pro</li>
-							<li class="text-md">Escape Air Vest Ltd - Escape Air Vest</li>
-							<li class="text-md">EMS Ltd - ModuLaser</li>
-							<li class="text-md">Evaclite - Evaclite Dynamic Signage</li>
-							<li class="text-md">FFE Ltd - Fireray One</li>
-							<li class="text-md">FirePro UK - FirePro Fire Suppression System</li>
-							<li class="text-md">Intumescent Chemicals Ltd - Liquid Flame Retardants</li>
-							<li class="text-md">Plumis - Automist Smartscan Hydra</li>
-							<li class="text-md">Profab Access - 4000 Series riser doors</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Apreco - VARI-centric APSX-FSS</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Air Pressure Stabiliser</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Chute Fire Certification Ltd - Chute Fire Safety System</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Coltraco Ultrasonics - Portalevel TOUCH</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>C-Tec - Hush Pro</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Escape Air Vest Ltd - Escape Air Vest</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>EMS Ltd - ModuLaser</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Evaclite - Evaclite Dynamic Signage</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>FFE Ltd - Fireray One</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>FirePro UK - FirePro Fire Suppression System</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Intumescent Chemicals Ltd - Liquid Flame Retardants</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Plumis - Automist Smartscan Hydra</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Profab Access - 4000 Series riser doors</div>
+				</li>
 					</ul>
-	</div>
+
+			</div>
 </div>
 		
 
@@ -295,25 +447,88 @@
 			</div>
 			
 			<h3 class="mt-2 text-xl text-grey-800 font-semibold uppercase">Health &amp; Safety Manager Of The Year</h3>										
-			
-							<div class="mt-1 text-md text-center">Sponsored by Alcumus</div>
-					</div>
+		</div>
 		
 		<ul class="mt-3 ml-4 sm:ml-6 md:ml-6 list-disc">
-							<li class="text-md">Barbara Derecka - Hughes Safety Showers</li>
-							<li class="text-md">Bob Donaldson - Rhomberg Sersa Rail Group UK Ltd</li>
-							<li class="text-md">Carlton Brookes Mersey Care NHS Foundation Trust</li>
-							<li class="text-md">David Reeves - Dyer &amp; Butler</li>
-							<li class="text-md">Frances Brocklehurst - Calderdale &amp; Huddersfield Solutions Ltd</li>
-							<li class="text-md">Joanne Milnes - CBRE GWS</li>
-							<li class="text-md">Mark Poole - The Salvatori Group of Companies Limited</li>
-							<li class="text-md">Paul Bolton - M247</li>
-							<li class="text-md">Paula Hale - Kier Highways</li>
-							<li class="text-md">Sarah Broadbent - 3M UK</li>
-							<li class="text-md">Trevor Bamber - Celtic Technologies Ltd &amp; Biogenie UK Ltd subsidiaries of Englobe Corp</li>
-							<li class="text-md">Simon Heywood - The Greener Gardening Company Ltd</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Barbara Derecka - Hughes Safety Showers</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Bob Donaldson - Rhomberg Sersa Rail Group UK Ltd</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Carlton Brookes Mersey Care NHS Foundation Trust</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>David Reeves - Dyer &amp; Butler</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Frances Brocklehurst - Calderdale &amp; Huddersfield Solutions Ltd</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Joanne Milnes - CBRE GWS</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Mark Poole - The Salvatori Group of Companies Limited</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Paul Bolton - M247</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Paula Hale - Kier Highways</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Sarah Broadbent - 3M UK</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Trevor Bamber - Celtic Technologies Ltd &amp; Biogenie UK Ltd subsidiaries of Englobe Corp</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Simon Heywood - The Greener Gardening Company Ltd</div>
+				</li>
 					</ul>
-	</div>
+
+					<div class="mt-12 text-md text-center">Sponsored by</div>
+			<div class="mt-4 flex justify-center">
+				<img class="h-20 w-auto max-w-sm" src="https://she-awards.netlify.app/assets/images/sponsors/awards/Alcumus.svg" alt="Alcumus">
+			</div>
+			</div>
 </div>
 		
 
@@ -328,18 +543,46 @@
 			</div>
 			
 			<h3 class="mt-2 text-xl text-grey-800 font-semibold uppercase">Best Health &amp; Safety In Construction</h3>										
-			
-							<div class="mt-1 text-md text-center">Sponsored by Turner Townsend</div>
-					</div>
+		</div>
 		
 		<ul class="mt-3 ml-4 sm:ml-6 md:ml-6 list-disc">
-							<li class="text-md">ADT Workplace</li>
-							<li class="text-md">Apreco Ltd</li>
-							<li class="text-md">D Morgan PLC</li>
-							<li class="text-md">Kier Highways</li>
-							<li class="text-md">North Tyneside Council</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>ADT Workplace</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Apreco Ltd</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>D Morgan PLC</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Kier Highways</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>North Tyneside Council</div>
+				</li>
 					</ul>
-	</div>
+
+					<div class="mt-12 text-md text-center">Sponsored by</div>
+			<div class="mt-4 flex justify-center">
+				<img class="h-20 w-auto max-w-sm" src="https://she-awards.netlify.app/assets/images/sponsors/awards/Turner-Townsend.svg" alt="Turner Townsend">
+			</div>
+			</div>
 </div>
 		
 
@@ -354,21 +597,64 @@
 			</div>
 			
 			<h3 class="mt-2 text-xl text-grey-800 font-semibold uppercase">The Safer Logistics Award</h3>										
-			
-							<div class="mt-1 text-md text-center">Sponsored by Toyota</div>
-					</div>
+		</div>
 		
 		<ul class="mt-3 ml-4 sm:ml-6 md:ml-6 list-disc">
-							<li class="text-md">asecos</li>
-							<li class="text-md">Britvic Soft Drinks</li>
-							<li class="text-md">GEFCO UK</li>
-							<li class="text-md">H+H UK</li>
-							<li class="text-md">John Pye and Sons</li>
-							<li class="text-md">SEC Storage</li>
-							<li class="text-md">Travis Perkins</li>
-							<li class="text-md">Wakefield Council</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>asecos</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Britvic Soft Drinks</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>GEFCO UK</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>H+H UK</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>John Pye and Sons</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>SEC Storage</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Travis Perkins</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Wakefield Council</div>
+				</li>
 					</ul>
-	</div>
+
+					<div class="mt-12 text-md text-center">Sponsored by</div>
+			<div class="mt-4 flex justify-center">
+				<img class="h-20 w-auto max-w-sm" src="https://she-awards.netlify.app/assets/images/sponsors/awards/Toyota.svg" alt="Toyota">
+			</div>
+			</div>
 </div>
 		
 
@@ -383,24 +669,84 @@
 			</div>
 			
 			<h3 class="mt-2 text-xl text-grey-800 font-semibold uppercase">Campaign of the Year (Fire, Health &amp; Safety)</h3>										
-			
-					</div>
+		</div>
 		
 		<ul class="mt-3 ml-4 sm:ml-6 md:ml-6 list-disc">
-							<li class="text-md">ADT Workplace</li>
-							<li class="text-md">Agility Risk &amp; Compliance</li>
-							<li class="text-md">asecos</li>
-							<li class="text-md">Birmingham Airport</li>
-							<li class="text-md">Bradford District Care NHS Foundation Trust</li>
-							<li class="text-md">Briggs Defence</li>
-							<li class="text-md">D Morgan PLC</li>
-							<li class="text-md">GKN Aerospace</li>
-							<li class="text-md">Jaguar Land Rover</li>
-							<li class="text-md">Lifeways Community Care Ltd</li>
-							<li class="text-md">Travis Perkins</li>
-							<li class="text-md">Warwickshire police</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>ADT Workplace</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Agility Risk &amp; Compliance</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>asecos</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Birmingham Airport</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Bradford District Care NHS Foundation Trust</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Briggs Defence</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>D Morgan PLC</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>GKN Aerospace</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Jaguar Land Rover</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Lifeways Community Care Ltd</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Travis Perkins</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Warwickshire police</div>
+				</li>
 					</ul>
-	</div>
+
+			</div>
 </div>
 		
 
@@ -415,25 +761,88 @@
 			</div>
 			
 			<h3 class="mt-2 text-xl text-grey-800 font-semibold uppercase">Rising star of the year award</h3>										
-			
-							<div class="mt-1 text-md text-center">Sponsored by Nineteen</div>
-					</div>
+		</div>
 		
 		<ul class="mt-3 ml-4 sm:ml-6 md:ml-6 list-disc">
-							<li class="text-md">Andrew Donovan - The Bury Black Pudding Company</li>
-							<li class="text-md">Chloe Chapman - Hughes Safety Showers</li>
-							<li class="text-md">Darren Glendinning - PepsiCo</li>
-							<li class="text-md">Dominic Robinson - Royal Navy</li>
-							<li class="text-md">Jack Macfarlane - TJ Transport / TJ Waste</li>
-							<li class="text-md">Lewis Solway - British Gas</li>
-							<li class="text-md">Martin Eccles - Hughes Safety Showers</li>
-							<li class="text-md">Paul Bolton - M247</li>
-							<li class="text-md">Robert Jukes - Wax Lyrical Ltd</li>
-							<li class="text-md">Shannon McGrorey - Grand Union Housing Group</li>
-							<li class="text-md">John Quarless – Kier Highways</li>
-							<li class="text-md">Kelly Cassidy - Link Contracting</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Andrew Donovan - The Bury Black Pudding Company</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Chloe Chapman - Hughes Safety Showers</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Darren Glendinning - PepsiCo</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Dominic Robinson - Royal Navy</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Jack Macfarlane - TJ Transport / TJ Waste</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Lewis Solway - British Gas</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Martin Eccles - Hughes Safety Showers</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Paul Bolton - M247</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Robert Jukes - Wax Lyrical Ltd</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Shannon McGrorey - Grand Union Housing Group</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>John Quarless – Kier Highways</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Kelly Cassidy - Link Contracting</div>
+				</li>
 					</ul>
-	</div>
+
+					<div class="mt-12 text-md text-center">Sponsored by</div>
+			<div class="mt-4 flex justify-center">
+				<img class="h-20 w-auto max-w-sm" src="https://she-awards.netlify.app/assets/images/sponsors/awards/Nineteen.svg" alt="Nineteen">
+			</div>
+			</div>
 </div>
 		
 
@@ -448,24 +857,84 @@
 			</div>
 			
 			<h3 class="mt-2 text-xl text-grey-800 font-semibold uppercase">Best Health &amp; Safety Project</h3>										
-			
-					</div>
+		</div>
 		
 		<ul class="mt-3 ml-4 sm:ml-6 md:ml-6 list-disc">
-							<li class="text-md">Apreco Ltd</li>
-							<li class="text-md">Auto Windscreens</li>
-							<li class="text-md">Avanti West Coast Trains</li>
-							<li class="text-md">British Horse Society</li>
-							<li class="text-md">GEFCO UK</li>
-							<li class="text-md">IDIS &amp; Galeco Communications</li>
-							<li class="text-md">North Tyneside Council</li>
-							<li class="text-md">SEC Storage</li>
-							<li class="text-md">Shropshire Towns and Rural Housing</li>
-							<li class="text-md">Tram Operations Limited</li>
-							<li class="text-md">Travis Perkins</li>
-							<li class="text-md">Wakefield Council</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Apreco Ltd</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Auto Windscreens</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Avanti West Coast Trains</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>British Horse Society</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>GEFCO UK</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>IDIS &amp; Galeco Communications</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>North Tyneside Council</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>SEC Storage</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Shropshire Towns and Rural Housing</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Tram Operations Limited</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Travis Perkins</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Wakefield Council</div>
+				</li>
 					</ul>
-	</div>
+
+			</div>
 </div>
 		
 
@@ -480,25 +949,88 @@
 			</div>
 			
 			<h3 class="mt-2 text-xl text-grey-800 font-semibold uppercase">Health &amp; Safety Team Of The Year</h3>										
-			
-							<div class="mt-1 text-md text-center">Sponsored by Nebosh</div>
-					</div>
+		</div>
 		
 		<ul class="mt-3 ml-4 sm:ml-6 md:ml-6 list-disc">
-							<li class="text-md">Birmingham Airport</li>
-							<li class="text-md">DHL Supply Chain</li>
-							<li class="text-md">Dwr Cymru Welsh Water Capital Delivery Alliance</li>
-							<li class="text-md">Engie</li>
-							<li class="text-md">Franks Portlock Consulting</li>
-							<li class="text-md">Hunter Safety Solutions</li>
-							<li class="text-md">Incentive FM Group</li>
-							<li class="text-md">James Briggs</li>
-							<li class="text-md">Palletline Ltd</li>
-							<li class="text-md">Pobl Group</li>
-							<li class="text-md">Poole Hospital NHS Foundation Trust</li>
-							<li class="text-md">Wren Kitchens</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Birmingham Airport</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>DHL Supply Chain</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Dwr Cymru Welsh Water Capital Delivery Alliance</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Engie</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Franks Portlock Consulting</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Hunter Safety Solutions</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Incentive FM Group</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>James Briggs</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Palletline Ltd</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Pobl Group</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Poole Hospital NHS Foundation Trust</div>
+				</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>Wren Kitchens</div>
+				</li>
 					</ul>
-	</div>
+
+					<div class="mt-12 text-md text-center">Sponsored by</div>
+			<div class="mt-4 flex justify-center">
+				<img class="h-20 w-auto max-w-sm" src="https://she-awards.netlify.app/assets/images/sponsors/awards/Nebosh.svg" alt="Nebosh">
+			</div>
+			</div>
 </div>
 		
 
@@ -513,14 +1045,22 @@
 			</div>
 			
 			<h3 class="mt-2 text-xl text-grey-800 font-semibold uppercase">Lifetime Achievement Award</h3>										
-			
-							<div class="mt-1 text-md text-center">Sponsored by Southalls</div>
-					</div>
+		</div>
 		
 		<ul class="mt-3 ml-4 sm:ml-6 md:ml-6 list-disc">
-							<li class="text-md">To be announced on the night!</li>
+							<li class="inline-flex items-start w-full text-md">
+					<svg class="mt-1 mr-3 w-4 h-4 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 20 20">                               
+                        <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"></path>
+                    </svg>
+					<div>To be announced on the night!</div>
+				</li>
 					</ul>
-	</div>
+
+					<div class="mt-12 text-md text-center">Sponsored by</div>
+			<div class="mt-4 flex justify-center">
+				<img class="h-20 w-auto max-w-sm" src="https://she-awards.netlify.app/assets/images/sponsors/awards/Southalls.svg" alt="Southalls">
+			</div>
+			</div>
 </div>
 		
 
@@ -544,7 +1084,7 @@
                         <svg class="mr-3 w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">                               
                             <path d="M1 4c0-1.1.9-2 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4zm2 2v12h14V6H3zm2-6h2v2H5V0zm8 0h2v2h-2V0zM5 9h2v2H5V9zm0 4h2v2H5v-2zm4-4h2v2H9V9zm0 4h2v2H9v-2zm4-4h2v2h-2V9zm0 4h2v2h-2v-2z"/>
                         </svg>                        
-                        <div>13th October 2021</div>
+                        <div>1st May 2024</div>
                     </div> 
                     <div class="mt-2">
                         <div class="inline-flex items-center">
@@ -562,7 +1102,7 @@
                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-yellow-500"><path d="M8 20H3V10H0L10 0l10 10h-3v10h-5v-6H8v6z"/></svg>
                         </div>
                         <div class="w-full text-white tracking-tight">
-                            <a href="https://hsmlive.co.uk/hsm_live/en/page/home" class="footer-link" target="_blank" rel="noopener">Online</a>
+                            <a href="https://form.jotform.com/232674667151360" class="footer-link" target="_blank" rel="noopener">The Vox, NEC, Birmingham</a>
                         </div>
                     </div>  
                 </div>                                                        
@@ -653,7 +1193,7 @@
                         <svg class="mr-3 w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">                               
                             <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"/>
                         </svg>                        
-                        <a href="https://hsmlive.co.uk/hsm_live/en/page/home" class="footer-link" target="_blank" rel="noopener">Register to Attend</a>
+                        <a href="https://form.jotform.com/232674667151360" class="footer-link" target="_blank" rel="noopener">Register to Attend</a>
                     </div>                 
                 </li>
                 <li>
@@ -762,7 +1302,7 @@
         <div class="container mx-auto w-full px-6 pb-3 text-white text-left uppercase footer">              
             <div class="lg:flex lg:justify-between lg:items-center pt-4 text-sm">
                 <div class="w-full py-2">
-                    &copy; Western Business Media Limited 2020 <br class="block sm:hidden" />All Rights Reserved
+                    &copy; Western Business Media Limited 2024 <br class="block sm:hidden" />All Rights Reserved
                 </div>                    
                 <div class="w-full lg:text-right">
                     <a href="/terms" class="inline-block py-2 pr-2 text-sm">Terms &amp; Conditions</a>  <span class="inline-block mx-2">|</span>  <a href="/privacy" class="inline-block pl-2 py-2">Privacy &amp; Cookie Policy</a>
@@ -774,8 +1314,8 @@
 </footer>
 
 
-<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer></script>
+<script defer src="https://unpkg.com/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
 
-
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 <script src="https://she-awards.netlify.app/assets/js/main.js"></script>    </body>
 </html>

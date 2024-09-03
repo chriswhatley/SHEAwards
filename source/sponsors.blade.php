@@ -12,7 +12,7 @@
        
         <section class="container mx-auto py-10 px-6 ">
 
-	    	<div class="flex flex-wrap">
+	    	<div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
 
 				@foreach($sponsors as $sponsor)
 					@include('_components.sponsor-component')
@@ -21,5 +21,13 @@
 	    	</div>
 
 		</section>
+
+	</main>
+
+	
+
+
+
+
 
 @endsection

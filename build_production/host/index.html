@@ -4,10 +4,10 @@
         <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>Celebrity Host | SHE Awards 2021</title>
+<title>Celebrity Host | SHE Awards 2024</title>
 <meta name="description" content="We are delighted to announce that Alan Dedicote will be this year&#039;s Awards&#039; Master Of Ceremonies.">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;900&display=swap" rel="stylesheet" rel="preload">
-<link rel="stylesheet" href="https://she-awards.netlify.app/assets/css/main.css?id=241b8d99b4ea442bb204">
+<link rel="stylesheet" href="https://she-awards.netlify.app/assets/css/main.css?id=ab814909967a9811db0d">
 <link rel="apple-touch-icon" sizes="180x180" href="https://she-awards.netlify.app/assets/images/meta/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://she-awards.netlify.app/assets/images/meta/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="https://she-awards.netlify.app/assets/images/meta/favicon-16x16.png">
@@ -30,7 +30,11 @@
         <header class="fixed w-full px-3 py-4 lg:px-12 lg:py-6 bg-black text-white flex justify-between z-20">            
         
     <a href="https://she-awards.netlify.app">
-        <img src="https://she-awards.netlify.app/assets/images/layout/she-awards-2021-logo.svg" alt="The SHE Awards 2021" class="h-16 lg:h-24 w-auto">
+        <picture>
+          <source media="(min-width:768px)" srcset="https://she-awards.netlify.app/assets/images/layout/logo-with-date.webp">
+          <source media="(max-width:767px)" srcset="https://she-awards.netlify.app/assets/images/layout/logo-no-date.webp">
+          <img src="https://she-awards.netlify.app/assets/images/layout/logo-fallback.png" alt="The SHE Awards" class="h-16 lg:h-24 w-auto">
+        </picture>
     </a>                
         
     <nav class="flex">
@@ -79,8 +83,11 @@
                 >                   
 			
 					<div class="relative my-6">
-						<div class="w-4/5 pl-3 md:pl-6">
-							<img src="https://she-awards.netlify.app/assets/images/layout/she-awards-2021-logo.svg" alt="The SHE Awards 2021" class="w-18" @click="open = !open">		                    			
+						<div class="w-3/5 sm:w-1/2 pl-3 md:pl-6">
+                            <picture>
+                                <source srcset="https://she-awards.netlify.app/assets/images/layout/logo-no-date.webp">
+                                <img src="https://she-awards.netlify.app/assets/images/layout/logo-fallback.png" alt="The SHE Awards" class="w-18" @click="open = !open">                                     
+                            </picture>
 						</div>
 						<div class="absolute top-0 right-0 md:hidden w-1/5 sm:pr-4 flex justify-end pt-2 pr-2">
 							<button @click="open = !open" class="relative top-0 right-0 z-20 text-yellow-500 focus:outline-none focus:border-blue-500 focus:shadow-outline-none">                                       
@@ -99,6 +106,22 @@
                                 </svg>
                                 Home
                             </a>
+                        </li>   
+                        <li>
+                            <a href="https://she-awards.netlify.app/winners" class="nav-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
+                                    <path d="M15 9a3 3 0 0 0 3-3h2a5 5 0 0 1-5.1 5 5 5 0 0 1-3.9 3.9V17l5 2v1H4v-1l5-2v-2.1A5 5 0 0 1 5.1 11H5a5 5 0 0 1-5-5h2a3 3 0 0 0 3 3V4H2v2H0V2h5V0h10v2h5v4h-2V4h-3v5z"/>
+                                </svg>
+                             2024 Winners
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://she-awards.netlify.app/shortlist" class="nav-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
+                                    <path d="M3 6c0-1.1.9-2 2-2h8l4-4h2v16h-2l-4-4H5a2 2 0 0 1-2-2H1V6h2zm8 9v5H8l-1.67-5H5v-2h8v2h-2z"/>
+                                </svg>
+                                2024 Shortlists
+                            </a>
                         </li>                            
                         <li>
                         	<a href="/nominate" class="nav-item">
@@ -108,14 +131,6 @@
                         		The Awards
                         	</a>
                         </li>                                                            
-                        <li>
-                        	<a href="/nominate" class="nav-item">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
-                                    <path d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z"/>
-                                </svg>
-                        		Make A Nomination
-                        	</a>
-                        </li>                            
                         <li>
                         	<a href="https://she-awards.netlify.app/charity" class="nav-item">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
@@ -157,11 +172,11 @@
                         	</a>
                         </li>                            
                         <li>
-                        	<a href="https://hsmlive.co.uk/hsm_live/en/page/home" class="nav-item bg-yellow-500">
+                        	<a href="https://form.jotform.com/232674667151360" class="nav-item bg-yellow-500">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
                                     <path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
                                 </svg>
-                        		Register To Attend
+                        		Book Your Tickets
                         	</a>
                         </li>                            
                     </ul>                          
@@ -180,55 +195,64 @@
 <div class="header-c w-full h-64 md:h-84 bg-bottom bg-no-repeat bg-cover object-cover flex items-center text-center justify-center">
 	<h2 class="text-3xl mt-20 md:mt-16 md:text-5xl md:mt-20 lg:mt-32 uppercase font-bold text-white z-50 tracking-tighter leading-tight">Master Of Ceremonies</h2>
 </div>
+		
+
 		<section class="container mx-auto px-6">  
 
-			<div class="flex flex-wrap">
-				
-				<div class="w-full lg:w-4/5 mx-auto mt-6">
-					<p class="text-lg md:mx-auto md:text-xl lg:text-2xl md:text-center font-semibold leading-tight lg:leading-tight uppercase">We are delighted to announce The ‘Voice of the Balls’ and Radio 2’s Chief Network Announcer Alan Dedicote as Master Of Ceremonies of this year's Awards.</p>
-				</div>
-				<div class="">
-					<p class="mt-4 md:mt-6 md:pr-4 font-semibold">He has been a well known voice across BBC output for over 30 years, and was a regular sidekick to the late Sir Terry Wogan on Radio 2's "Wake Up to Wogan" breakfast programme where he was most commonly known as "Deadly".</p>									
-		
-					<div class="float-left w-full h-72 md:w-1/3 md:h-56 lg:w-2/5 lg:h-84 mr-8 my-4 host-bio bg-top bg-cover rounded-md overflow-hidden"></div>
-			
-					<p class="mt-6">
-						He was educated at King Edward VI School for Boys in Birmingham, and the University of Birmingham.
-					</p>
-					<p class="mt-6">
-						His radio career took off at BBC Pebble Mill where he worked as a station assistant for BBC Radio Birmingham, and then he spent four more years in Plymouth and Exeter as a producer/presenter for BBC Radio Devon.
-					</p>
-					<p class="mt-6">
-						In 1987 Alan joined the Presentation Department of Radio 2 at Broadcasting House in London, voicing trails and promotions. Since 1995 he has been providing live commentary for the National Lottery draws, while in the US he is the voice-over announcer for ABC's Dancing with the Stars (the US version of Strictly Come Dancing), which he has done since 2005.
-					</p>
+		<div class="w-full my-6">
+			<p class="text-lg md:text-xl lg:text-2xl md:text-center font-semibold leading-tight lg:leading-tight uppercase">We are delighted to announce that well-known presenter Dara Ó Briain will host this year’s Awards.</p>
+		</div>
 
-					<div class="mt-6 text-center md:text-center">
-						<div class="w-full md:inline-flex md:w-2/5 xl:w-1/4">
-			        		<a href="/nominate" class="btn-primary w-4/5 max-w-xs">
-			        			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
-			        				<path d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z"/>
-			        			</svg>
-			        			Make A Nomination
-			        		</a>
-			        	</div>
+		<div class="">
+			<div class="w-full h-84 mb-6 sm:float-right sm:w-1/2 sm:mb-0 sm:ml-6 md:h-84 lg:h-100 lg:mb-4 xl:w-1/3 host-bio bg-center bg-contain bg-no-repeat"></div>
 
-			        	<div class="w-full mt-4 md:inline-flex md:mt-0 md:w-2/5 xl:w-1/4">
-			        		<a href="https://hsmlive.co.uk/hsm_live/en/page/home" target="_blank" rel="noopener" class="btn-primary w-4/5 max-w-xs">
-			        			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
-			        				<path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
-			        			</svg>
-			        			Register To Attend
-			        		</a>
-			        	</div>
+			<p class="md:pr-4 font-semibold">Dara Ó Briain has earned a reputation as the most versatile of presenters and one of the finest comedians in the business. He is as quick-witted in cabaret as he was playing maestro of Mock the Week, equally at home on the Apollo stage or chatting to physicists and astronauts.</p>
+			<p class="mt-4 md:mt-6 md:pr-4">He has sold out shows all over the world, from Melbourne to Shanghai. In his first appearance at the Just for Laughs Festival in Montreal, he made such an impact that space had to be made for him in the gala bill hosted by Joan Rivers.</p>
+			<p class="mt-4 md:mt-6 md:pr-4">Dara started his career in television as a children’s presenter on RTÉ whilst performing his first stand-up gigs on the Irish comedy circuit, after studying at University College, Dublin, where he read Mathematical Physics.</p>
+			<p class="mt-4 md:mt-6 md:pr-4">His many TV credits range from Stargazing to The Apprentice: You're Fired! He's interviewed Stephen Hawking, fronted revivals of Robot Wars and Blockbusters, enjoyed road trips with Ed Byrne, boating with Rory McGrath and Griff Rhys Jones, and hosted Channel 4’s quiz show One and Six Zero’s.</p>
+			<p class="mt-4 md:mt-6 md:pr-4">Dara is also one of the most sought-after award show hosts in Britain, and has regularly hosted the BAFTA Games Awards.</p>
+			<p class="mt-4 md:mt-6 md:pr-4">Since writing his bestselling bookTickling the English, Dara has published a string of books designed to engage children in science. His book Beyond the Stars, was nominated for the Blue Peter Book Award for Best Non-Fiction. The follow up Secret Science – The Amazing World Beyond your Eyes, was released to critical acclaim. His third children’s book Is There Anybody Out There? Is an illustrated helpful guide to sort out what is science fiction and what is science fact.</p>
+
+		</div>
+
+		<div class="mx-auto my-12 text-center md:text-center">
+			<a href="/sponsors">
+				<div class="flex justify-center">
+					<div class="w-6">
+						<img class="mr-4 h-6 w-6 fill-current text-yellow-500" src="https://she-awards.netlify.app/assets/images/icons/artist.svg" alt="Icon">
 					</div>
-		            
-										
-				</div>				
-			</div>
-		</section>	
+					<div class="mt-1 ml-2 font-semibold uppercase">
+						Host Sponsor
+					</div>	
+				</div>
+				<img class="mx-auto max-w-xs" src="https://she-awards.netlify.app/assets/images/layout/safety-rocks-host-sponsor.svg" alt="Safety Rocks">
+			</a>
+		</div>	 
+
+		<div class="mx-auto my-12 text-center md:text-center">
+			<a href="/award-categories" class="btn-primary max-w-sm">
+    			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
+    				<path d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z"></path>
+    			</svg>
+    			Make A Nomination
+    		</a>
+
+			<a href="https://form.jotform.com/232674667151360" target="_blank" class="btn-primary max-w-sm mt-6 sm:mt-0 sm:ml-6">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
+					<path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
+				</svg>
+				Book Tickets Now
+			</a>
+		</div>
+
+	</section>
 
 		<section class="mt-10">
-	<div class="collage"></div>
+	<div class="collage w-full flex h-48 md:h-64">
+		<div class="w-1/3 h-auto collage-tile-a"></div>
+		<div class="w-1/3 h-auto collage-tile-c"></div>
+		<div class="w-1/3 h-auto collage-tile-b"></div>
+	</div>
 </section>	</main>
 
 
@@ -245,7 +269,7 @@
                         <svg class="mr-3 w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">                               
                             <path d="M1 4c0-1.1.9-2 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4zm2 2v12h14V6H3zm2-6h2v2H5V0zm8 0h2v2h-2V0zM5 9h2v2H5V9zm0 4h2v2H5v-2zm4-4h2v2H9V9zm0 4h2v2H9v-2zm4-4h2v2h-2V9zm0 4h2v2h-2v-2z"/>
                         </svg>                        
-                        <div>13th October 2021</div>
+                        <div>1st May 2024</div>
                     </div> 
                     <div class="mt-2">
                         <div class="inline-flex items-center">
@@ -263,7 +287,7 @@
                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-yellow-500"><path d="M8 20H3V10H0L10 0l10 10h-3v10h-5v-6H8v6z"/></svg>
                         </div>
                         <div class="w-full text-white tracking-tight">
-                            <a href="https://hsmlive.co.uk/hsm_live/en/page/home" class="footer-link" target="_blank" rel="noopener">Online</a>
+                            <a href="https://form.jotform.com/232674667151360" class="footer-link" target="_blank" rel="noopener">The Vox, NEC, Birmingham</a>
                         </div>
                     </div>  
                 </div>                                                        
@@ -354,7 +378,7 @@
                         <svg class="mr-3 w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">                               
                             <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"/>
                         </svg>                        
-                        <a href="https://hsmlive.co.uk/hsm_live/en/page/home" class="footer-link" target="_blank" rel="noopener">Register to Attend</a>
+                        <a href="https://form.jotform.com/232674667151360" class="footer-link" target="_blank" rel="noopener">Register to Attend</a>
                     </div>                 
                 </li>
                 <li>
@@ -463,7 +487,7 @@
         <div class="container mx-auto w-full px-6 pb-3 text-white text-left uppercase footer">              
             <div class="lg:flex lg:justify-between lg:items-center pt-4 text-sm">
                 <div class="w-full py-2">
-                    &copy; Western Business Media Limited 2020 <br class="block sm:hidden" />All Rights Reserved
+                    &copy; Western Business Media Limited 2024 <br class="block sm:hidden" />All Rights Reserved
                 </div>                    
                 <div class="w-full lg:text-right">
                     <a href="/terms" class="inline-block py-2 pr-2 text-sm">Terms &amp; Conditions</a>  <span class="inline-block mx-2">|</span>  <a href="/privacy" class="inline-block pl-2 py-2">Privacy &amp; Cookie Policy</a>
@@ -475,8 +499,8 @@
 </footer>
 
 
-<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer></script>
+<script defer src="https://unpkg.com/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
 
-
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 <script src="https://she-awards.netlify.app/assets/js/main.js"></script>    </body>
 </html>

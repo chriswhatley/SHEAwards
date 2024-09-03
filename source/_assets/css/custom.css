@@ -1,3 +1,7 @@
+.shrink-0 {
+    flex-shrink: 0;
+}
+
 .nav-item {
 	@apply block px-6 py-3 font-bold uppercase tracking-tight transition duration-300 ease-in-out;
 }
@@ -31,20 +35,22 @@
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7 ), rgba(0, 0, 0, 0.7)), url('../video/she-awards-background-poster-compressed.jpg');
 }
 
-.webp .host {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7 ), rgba(0, 0, 0, 0.7)), url('../images/layout/home-alan-dedicote-compressed.webp');
+.host {
+	background-image: url('../images/layout/dara-o-briain.webp');
 }
 
-.no-webp .host {
-	background-image: url('../images/layout/home-alan-dedicote-compressed.jpg');
+@media (min-width: 1024px) {
+    .webp .host {
+        background-image: url(../images/layout/dara-o-briain-xl.webp);
+    }
 }
 
 .webp .host-bio {
-	background-image: url('../images/layout/host-alan-dedicote-compressed.webp');
+	background-image: url('../images/layout/dara-o-briain.webp');
 }
 
 .no-webp .host-bio {
-	background-image: url('../images/layout/host-alan-dedicote-compressed.jpg');
+	background-image: url('../images/layout/dara-o-briain.jpg');
 }
 
 .stats h3::after {
@@ -153,19 +159,19 @@ footer .watermark {
 }
 
 .webp .sponsorship-brochure {
-	background-image: url('../images/layout/sponsorship-b-compressed.webp');
+	background-image: url('../images/layout/sponsorship-brochure.webp');
 }
 
 .no-webp .sponsorship-brochure {
-	background-image: url('../images/layout/sponsorship-b-compressed.jpg');
+	background-image: url('../images/layout/sponsorship-brochure.jpg');
 }
 
 .webp .sponsorship-contact {
-	background-image: url('../images/layout/sponsorship-contact-compressed.webp');
+	background-image: url('../images/layout/sponsorship-contact.webp');
 }
 
 .no-webp .sponsorship-contact {
-	background-image: url('../images/layout/sponsorship-contact-compressed.jpg');
+	background-image: url('../images/layout/sponsorship-contact.jpg');
 }
 
 .webp .sponsorship-tickets {
@@ -216,16 +222,38 @@ footer .watermark {
 	background-image: url('../images/layout/contact-d-compressed.jpg');
 }
 
-.collage {
-	@apply w-full h-72 bg-cover bg-center
+[class*=collage-tile-] {
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
 }
 
-.webp .collage {
-	background-image: url('../images/layout/footer-strip-compressed.webp');
+.webp .collage-tile-a {
+    background-image: url('../images/layout/collage-tile-a.webp');
 }
 
-.no-webp .collage {
-	background-image: url('../images/layout/footer-strip-compressed.jpg');
+.no-webp .collage-tile-a {
+    background-image: url('../images/layout/collage-tile-a.jpg');
+}
+
+.webp .collage-tile-b {
+    background-image: url('../images/layout/collage-tile-b.webp');
+}
+
+.no-webp .collage-tile-b {
+    background-image: url('../images/layout/collage-tile-b.jpg');
+}
+
+.webp .collage-tile-c {
+    background-image: url('../images/layout/collage-tile-c.webp');
+}
+
+.collage-tile-c {
+    background-position: top;
+}
+
+.no-webp .collage-tile-c {
+    background-image: url('../images/layout/collage-tile-c.jpg');
 }
 
 .webp .faq-a {

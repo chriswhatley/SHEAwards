@@ -10,7 +10,7 @@
 
 		@include('_components.title-component', ['title' => 'Master Of Ceremonies', 'background_image' => 'header-c'])
 
-		<section class="container mx-auto px-6">  
+		{{-- <section class="container mx-auto px-6">  
 
 			<div class="flex flex-wrap">
 				
@@ -55,7 +55,57 @@
 										
 				</div>				
 			</div>
-		</section>	
+		</section>	 --}}
+
+		<section class="container mx-auto px-6">  
+
+		<div class="w-full my-6">
+			<p class="text-lg md:text-xl lg:text-2xl md:text-center font-semibold leading-tight lg:leading-tight uppercase">We are delighted to announce that well-known presenter Dara Ó Briain will host this year’s Awards.</p>
+		</div>
+
+		<div class="">
+			<div class="w-full h-84 mb-6 sm:float-right sm:w-1/2 sm:mb-0 sm:ml-6 md:h-84 lg:h-100 lg:mb-4 xl:w-1/3 host-bio bg-center bg-contain bg-no-repeat"></div>
+
+			<p class="md:pr-4 font-semibold">Dara Ó Briain has earned a reputation as the most versatile of presenters and one of the finest comedians in the business. He is as quick-witted in cabaret as he was playing maestro of Mock the Week, equally at home on the Apollo stage or chatting to physicists and astronauts.</p>
+			<p class="mt-4 md:mt-6 md:pr-4">He has sold out shows all over the world, from Melbourne to Shanghai. In his first appearance at the Just for Laughs Festival in Montreal, he made such an impact that space had to be made for him in the gala bill hosted by Joan Rivers.</p>
+			<p class="mt-4 md:mt-6 md:pr-4">Dara started his career in television as a children’s presenter on RTÉ whilst performing his first stand-up gigs on the Irish comedy circuit, after studying at University College, Dublin, where he read Mathematical Physics.</p>
+			<p class="mt-4 md:mt-6 md:pr-4">His many TV credits range from Stargazing to The Apprentice: You're Fired! He's interviewed Stephen Hawking, fronted revivals of Robot Wars and Blockbusters, enjoyed road trips with Ed Byrne, boating with Rory McGrath and Griff Rhys Jones, and hosted Channel 4’s quiz show One and Six Zero’s.</p>
+			<p class="mt-4 md:mt-6 md:pr-4">Dara is also one of the most sought-after award show hosts in Britain, and has regularly hosted the BAFTA Games Awards.</p>
+			<p class="mt-4 md:mt-6 md:pr-4">Since writing his bestselling bookTickling the English, Dara has published a string of books designed to engage children in science. His book Beyond the Stars, was nominated for the Blue Peter Book Award for Best Non-Fiction. The follow up Secret Science – The Amazing World Beyond your Eyes, was released to critical acclaim. His third children’s book Is There Anybody Out There? Is an illustrated helpful guide to sort out what is science fiction and what is science fact.</p>
+
+		</div>
+
+		<div class="mx-auto my-12 text-center md:text-center">
+			<a href="/sponsors">
+				<div class="flex justify-center">
+					<div class="w-6">
+						<img class="mr-4 h-6 w-6 fill-current text-yellow-500" src="{{ $page->baseUrl }}/assets/images/icons/artist.svg" alt="Icon">
+					</div>
+					<div class="mt-1 ml-2 font-semibold uppercase">
+						Host Sponsor
+					</div>	
+				</div>
+				<img class="mx-auto max-w-xs" src="{{ $page->baseUrl }}/assets/images/layout/safety-rocks-host-sponsor.svg" alt="Safety Rocks">
+			</a>
+		</div>	 
+
+		<div class="mx-auto my-12 text-center md:text-center">
+			<a href="/award-categories" class="btn-primary max-w-sm">
+    			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
+    				<path d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z"></path>
+    			</svg>
+    			Make A Nomination
+    		</a>
+
+			<a href="{{ $page->awardsURL }}" target="_blank" class="btn-primary max-w-sm mt-6 sm:mt-0 sm:ml-6">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
+					<path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
+				</svg>
+				Book Tickets Now
+			</a>
+		</div>
+
+	</section>
 
 		@include('_partials.collage')
 	</main>

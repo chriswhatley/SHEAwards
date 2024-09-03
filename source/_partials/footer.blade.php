@@ -29,7 +29,7 @@
                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-yellow-500"><path d="M8 20H3V10H0L10 0l10 10h-3v10h-5v-6H8v6z"/></svg>
                         </div>
                         <div class="w-full text-white tracking-tight">
-                            <a href="{{ $page->awardsURL }}" class="footer-link" target="_blank" rel="noopener">Online</a>
+                            <a href="{{ $page->awardsURL }}" class="footer-link" target="_blank" rel="noopener">{{ $page->awardsLocation }}</a>
                         </div>
                     </div>  
                 </div>                                                        
@@ -229,7 +229,7 @@
         <div class="container mx-auto w-full px-6 pb-3 text-white text-left uppercase footer">              
             <div class="lg:flex lg:justify-between lg:items-center pt-4 text-sm">
                 <div class="w-full py-2">
-                    &copy; Western Business Media Limited 2020 <br class="block sm:hidden" />All Rights Reserved
+                    &copy; Western Business Media Limited @php echo date('Y'); @endphp <br class="block sm:hidden" />All Rights Reserved
                 </div>                    
                 <div class="w-full lg:text-right">
                     <a href="/terms" class="inline-block py-2 pr-2 text-sm">Terms &amp; Conditions</a>  <span class="inline-block mx-2">|</span>  <a href="/privacy" class="inline-block pl-2 py-2">Privacy &amp; Cookie Policy</a>

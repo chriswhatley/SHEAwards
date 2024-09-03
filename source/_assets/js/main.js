@@ -25,7 +25,7 @@ window.faq = [
     ]
 },
 {
-    question: "When do entries open for the SHE Awards 2021?",
+    question: "When do entries open for the SHE Awards 2024?",
     answer: [
     "1st May 2021 is the opening date for entries"
     ]
@@ -33,31 +33,31 @@ window.faq = [
 {
     question: "When do entries close?",
     answer: [
-    "Entries will close on 31st July 2021 at 11:59pm"
+    "Entries will close on 31st March 2024 at 11:59pm"
     ]
 },
 {
     question: "How do I enter the Awards?",
     answer: [
-    "You enter online via our entries page and select the category you wish to enter. Please make sure you fill in all the entry fields and provide accurate contact information. When entries open on 1 May 2021 you can <a href=\"/nominate\" class=\"text-yellow-500 font-semibold\">enter nominations here</a>"
+    "You enter online via our entries page and select the category you wish to enter. Please make sure you fill in all the entry fields and provide accurate contact information. When entries open on 1 October 2023 you can <a href=\"/nominate\" class=\"text-yellow-500 font-semibold\">enter nominations here</a>"
     ]
 },
 {
     question: "When will the shortlist be revealed?",
     answer: [
-    "We will announce the shortlist in September 2021"
+    "We will announce the shortlist in April 2024"
     ]
 },
 {
     question: "When will the winners be revealed?",
     answer: [
-    "The SHE Awards will be hosted digitally on 13 October 2021 as part the of <a href=\"https://www.hsmlive.co.uk\" target=\"_blank\" class=\"text-yellow-500 font-semibold\">Health &amp; Safety Matters Live Digital Conference</a>."
+    "The SHE Awards will be hosted on May24th at The Vox, Birmingham as part the of <a href=\"https://www.hsmlive.co.uk\" target=\"_blank\" class=\"text-yellow-500 font-semibold\">Health &amp; Safety Matters Live Conference</a>."
     ]
 },
 {
     question: "How can I attend the digital awards ceremony?",
     answer: [
-    "It’s free to attend and registration will open on 1 July 2021. You will be able to register to attend at <a href=\"https://www.hsmlive.co.uk\" target=\"_blank\" class=\"text-yellow-500 font-semibold\">hsmlive.co.uk</a>"
+    "It’s free to attend and registration will open on 1 November 2023. You will be able to register to attend at <a href=\"https://www.hsmlive.co.uk\" target=\"_blank\" class=\"text-yellow-500 font-semibold\">hsmlive.co.uk</a>"
     ]
 },
 {

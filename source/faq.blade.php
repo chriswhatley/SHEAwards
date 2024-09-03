@@ -20,7 +20,8 @@
 				<div class="w-full md:w-1/2 md:pr-6">
 
 					<div x-data="{ faq, faq_selected: false }" class="faq space-y-4">
-						<template x-for="(item, index) in faq" :key="'item-{$index}'">
+						{{-- <template x-for="(item, index) in faq" :key="'item-{$index}'"> --}}
+						<template x-for="(item, index) in faq">
 							<div class="pb-3">
 								<div class="bg-gray-200 border-t-4 border-yellow-500 pl-3 flex justify-between items-center cursor-pointer" @click="faq_selected !== index ? faq_selected = index : faq_selected = null">
 									

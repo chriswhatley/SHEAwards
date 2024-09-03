@@ -110,7 +110,7 @@
 			<div class="w-full flex flex-col py-4 px-4 md:w-1/2">
 				<div class="flex flex-col flex-1 px-4 py-4 bg-white rounded-md bg-gray-300">
 					<div class="md:mt-6 text-center font-bold text-lg tracking-tight font-semibold uppercase xl:mt-8 xl:text-xl">
-						The 2021 SHE Awards are organised by
+						The SHE Awards are organised by
 					</div>
 					<div class="mx-auto w-full sm:w-3/5 md:w-4/5">
 						
